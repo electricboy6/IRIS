@@ -29,6 +29,8 @@ No more firmware development will be done on this repository, we don't want to t
 The 22uf decoupling cap for the battery has too low of a voltage rating and should instead be populated with one of the 10uf ones.  
 The wrong footprint was used for one of the inductors on the lr2021, it should be 0402.  
 The oscillator loading caps may need to be changed depending on what parasitic capacitance you assume, these are for roughly 4pf parasitic.
+The lr2021 implementation is severlely screwed up
+tldr don't use this, but take a look at v2 on my github (still in development as of the time of writing)
 #### Component BOM
 |Item                              |Description               |Link                                                                                                                                                |Quantity|Unit Price|Item Subtotal     |Remarks                                                                                                                           |
 |----------------------------------|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|------------------|----------------------------------------------------------------------------------------------------------------------------------|
